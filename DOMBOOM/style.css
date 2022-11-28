@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 50px 0px 0px 60px;
+    color: white;
+}
+.tagline {
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 60px 50px 50px;
+    color: white;
+}
+
+.boton{
+    display: inline;
+    background-color: rgb(86, 217, 173);
+    color: white;
+    padding: 25px 60px;
+    margin: 20px 60px ;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.nav{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: right;
+    color: white;
+    margin: 20px;
+    }
+
+.nav.signup{
+    color: rgb(86, 217, 173);
+}
+nav{
+    padding: 30px 50px 0px;
+    text-align: right;
+}
+
+nav a:hover{
+    color: rgb(86, 217, 173);
+}
+
+
+.caja1{
+    display: inline;
+    flex-direction: column;
+}
+
+.yamaha{
+
+}
+    
+
+body {background: #07081B;}
+

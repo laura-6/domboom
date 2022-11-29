@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #07081B;
+}
+
+h1{ font-size: 50px;}
+
+.titulo{
+    margin: 0px 0px 0px 0px
+    }
+
+.tagline{
+    padding: 0px 0px 20px 0px;
+    font-size: 12px;
+}
+
+.btn{
+    padding: 25px 40px;
+    /* border: 1px solid; */
+    border-radius: 50px;
+    font-weight: 700;
+    background-color: rgb(44, 182, 117);
+    text-decoration: none;
+    box-shadow: 2px 4px rgb(255, 255, 255);
+    /* max-width: 300px; */
+}
+
+.btn:hover{
+    background-color: rgb(13, 138, 80);
+}
+
+.yamaha{
+    padding: 30px;
+}
+
+.logo{
+    margin: o;
+    padding: 20px;
+}
+
+.nav{
+    text-decoration: none;
+    padding: 2px;
+}
+
+.nave{
+    margin: 0px 0px 20px 0px;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nav:hover{
+    color: rgb(44, 182, 117);
+}
+
+.nav.signup{
+    color: rgb(44, 182, 117);
+}
+
+.seccion1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.yamaha{
+    width: 85%;
+    padding: 60px 0px 0px 0px;
+}
+
+.minicontainer{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    align-items: center;
+}
+
+.container.dos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.btn2{
+    color: rgb(44, 182, 117);
+    padding: 25px 40px;
+    /* border: 1px solid; */
+    border-radius: 50px;
+    font-weight: 700;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    box-shadow: 2px 4px rgb(44, 182, 117);
+    /* max-width: 300px; */
+}
+.subtitulo{
+    font-size: 20px;
+}
+
+.tagline2{
+    padding: 0px 0px 20px 0px;
+    font-size: 12px;
+}
+
+@media (min-width: 720px){
+    header .container{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    header nav{
+        flex-direction: row;
+        ;
+        
+    }
+
+    .container.uno{
+        display: flex;
+        justify-content: center;
+    }
+
+    .minicontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .yamaha{
+        margin: -60px 0px 0px 0px;
+        width: 75%;
+    }
+
+}

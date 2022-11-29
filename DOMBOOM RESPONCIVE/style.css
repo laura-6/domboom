@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    margin: 20px 110px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 50px 0px 0px 110px;
+    color: white;
+}
+.tagline {
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 60px 50px 110px;
+    color: white;
+    
+}
+
+.boton{
+    display: inline;
+    background-color: rgb(86, 217, 173);
+    color: white;
+    padding: 25px 60px;
+    margin: 80px 20px 0px 110px ;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.nav{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: right;
+    color: white;
+    margin: 20px;
+    }
+
+.nav.signup{
+    color: rgb(86, 217, 173);
+}
+nav{
+    padding: 30px 50px 0px;
+    text-align: right;
+}
+
+nav a:hover{
+    color: rgb(86, 217, 173);
+}
+
+.seccion1{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px 0px 0px;
+}
+
+.yamaha{
+    justify-content: flex-end;
+    display: flex;
+    align-items: flex-start;
+    width: 65%;   
+    margin: 0px 60px 0px 0px; 
+}
+    
+
+body {background: #07081B;}
+
+.seccion2{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.boton2{
+    display: inline;
+    background-color: white;
+    color: #07081B;
+    padding: 25px 60px;
+    margin: 20px 20px 0px 80px ;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;    
+}
+
+.trypremium{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.play{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 0px 50px 0px;
+    text-align: center;
+}
+
+@media screen (max-width: 800px) {
+    header nav{
+        width: 80%;
+        height: 100%;
+        margin: 0;
+        position: fi;
+    }
+    
+}
+
+header nav ul li{
+    display: block;
+    float: none;
+    border-bottom: 1px solid rgb(red, green, blue);
+}
